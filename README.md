@@ -49,4 +49,4 @@ For example, if your Scilla smart contract filename is escrow.scilla, you would 
 
 If you have any questions, comments, or recommendations, let me know by email at pavondunbar@gmail.com.
 
-Finally, if you enjoy the script and you'd like to make a donation, I'd appreciate it. My ZIL address is zil12wpl057g0vue93nsqpvvkrxhsy4aqf7cqtu6px
+Finally, if you enjoy the script and you'd like to make a donation, I'd appreciate it. My ZIL address is zil12wpl057g0vue93nsqpvvkrxhsy4aqf7cqtu6px . Thank you in advance.
