@@ -1,4 +1,4 @@
-Scilla Development Environment Linux Script
+SCILLA DEVELOPMENT ENVIRONMENT LINUX SCRIPT
 
 This script installs the Scilla Smart Contract Programming Language Development Environment On A Linux VPS or OS.
 
