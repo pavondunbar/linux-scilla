@@ -10,38 +10,41 @@ Instructions:
 
 1. DO NOT RUN THIS SCRIPT AS ROOT! 
 
-2. Change directory to user:
+2. CHANGE DIRECTORY TO USER:
 cd /home/~USER
 
-3. Clone this repository:
+3. CLONE THE REPOSITORY:
 git clone https://github.com/pavondunbar/linux-scilla
 
-4. Change file permission of scilla.sh by granting execute permissions:
+4. GRANT EXECUTE PERMISSIONS:
 chmod +x scilla.sh
 
-5. Run the script:
+5. RUN THE SHELL SCRIPT:
 ./scilla.sh
 
 Let the script run. It may ask you one or two yes or no questions or ask you to press enter. This is normal.
 
-After the script runs it will test the auction.scilla smart contract. If the output is JSON data and you see "Installation complete. Enjoy Scilla!" then you're good to go.
+After the script runs it will test the auction.scilla smart contract. 
+
+If the output is JSON data and you see "Installation complete. Enjoy Scilla!" then you're good to go.
 
 If you wish to write your own Scilla smart contracts in the command line, you can do so by:
 
-a. Going to the contracts folder:
+a. GOING TO THE CONTRACTS FOLDER:
 cd scilla/tests/contracts
 
-b. Start a new Scilla Contract file:
+b. STARTING A NEW SCILLA CONTRACT FILE:
 nano [filename].scilla
 
 To test your contract once it's done:
 
-a. Go to the scilla directory:
+a. GO TO THE SCILLA DIRECTORY:
 cd scilla
 
-b. Run easyrun:
-./easyrun.sh [scilla filename] 0-5 # pick a number between 0 and 5
-EX: If your Scilla smart contract filename is escrow.scilla, you would run
+b. INITIALIZE EASYRUN:
+./easyrun.sh [scilla filename] 0-5 (pick a number between 0 and 5).
+
+For example, if your Scilla smart contract filename is escrow.scilla, you would run:  
 ./easyrun.sh escrow 2
 
 If you have any questions, comments, or recommendations, let me know by email at pavondunbar@gmail.com.
